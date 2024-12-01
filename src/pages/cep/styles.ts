@@ -4,8 +4,9 @@ export const styles = StyleSheet.create({
   container: 
   {
     flex: 1,
-    alignItems: 'center',
+    alignItems: 'flex-start',
     justifyContent: 'center',
+    paddingLeft: 50,
   },
   label: 
   {
@@ -25,6 +26,13 @@ export const styles = StyleSheet.create({
   info:
   {
     marginTop: 12,
-    justifyContent: 'flex-start'
+    textAlign: 'left',
+    fontSize: 16,
+    color: '#9E9E9E'
+  },
+  infoText:
+  {
+    marginTop: 8,
+    fontSize: 20,
   }
 });

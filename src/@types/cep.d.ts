@@ -13,4 +13,5 @@ export interface ICep
   siafi: string;
   uf: string;
   unidade: string;
+  erro: boolean; // when it doesn't find the cep it returns an anonymous object with 'erro' value
 }
