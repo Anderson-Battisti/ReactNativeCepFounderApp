@@ -1,12 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Cep } from './src/pages/cep';
+import axios from 'axios';
+
+axios.defaults.baseURL = 'https://viacep.com.br/ws/';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Cep />
   );
 }
 

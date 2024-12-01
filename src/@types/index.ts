@@ -1,0 +1,1 @@
+export { ICep } from './cep';
